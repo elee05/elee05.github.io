@@ -1,0 +1,43 @@
+#about {
+    margin-right:50px;
+    width:400px;
+    color:black;
+    background-color: rgb(0, 71, 71);
+    margin-top:0px;
+    
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#about p {
+    font-size:20px
+}
+
+
+
+.toggler {
+    position: absolute;
+    background-color: #000000;
+    cursor: pointer;
+    left: 0;
+    font-size: medium;
+    color: #e5d9f2;
+    margin-top: 0;
+}
+
+.Aicons {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#about img {
+    margin-left:16px;
+    margin-right:16px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}

@@ -1,0 +1,39 @@
+#profile {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+    margin-left:50px;
+    margin-right:50px;
+    font-size: 1.2rem;
+}
+
+#profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:300px;
+}
+
+#profile-text img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    
+}
+
+#profile-text img {
+    transition: transform 0.2s;
+    color: brown;
+}
+
+#profile h2 {
+    font-size: 35px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
