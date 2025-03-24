@@ -34,18 +34,22 @@ function About() {
                 <h3>My Skills</h3>
                 <div className="Aicons" >
                     <div className="row1">
-                        <img src='https://skillicons.dev/icons?i=html&amp;theme=light'></img>
-                        <img src='https://skillicons.dev/icons?i=css&amp;theme=light'></img>
                         <img src='https://skillicons.dev/icons?i=py&amp;theme=light'></img>
-                        <img src='https://skillicons.dev/icons?i=js&amp;theme=light'></img>
+                        <img src='https://skillicons.dev/icons?i=cpp&amp;theme=light'></img>
+                        <img src='https://skillicons.dev/icons?i=java&amp;theme=light'></img>
+                        <img src='https://skillicons.dev/icons?i=mysql&amp;theme=light'></img>
                         <img src='https://skillicons.dev/icons?i=latex&amp;theme=light'></img>
                     </div>
                     <div className="row2">
-                        <img src='https://skillicons.dev/icons?i=cpp&amp;theme=light'></img>
-                        <img src='https://skillicons.dev/icons?i=java&amp;theme=light'></img>
+                        <img src='https://skillicons.dev/icons?i=html&amp;theme=light'></img>
+                        <img src='https://skillicons.dev/icons?i=css&amp;theme=light'></img>
+                        <img src='https://skillicons.dev/icons?i=js&amp;theme=light'></img>
+                        <img src='https://skillicons.dev/icons?i=ts&amp;theme=light'></img>
                         <img src='https://skillicons.dev/icons?i=git&amp;theme=light'></img>
                         <img src='https://skillicons.dev/icons?i=react&amp;theme=light'></img>
-                        <img width="60" height="60" src={SQL}></img>
+                        
+                        {/* <img width="60" height="60" src={SQL}></img> */}
+
                         
                     </div>
                     

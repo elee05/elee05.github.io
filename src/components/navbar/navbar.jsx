@@ -8,6 +8,7 @@ function Navbar() {
                 <a href="#about">About</a>
                 <a href="#exp">Experiences</a>
                 <a href="#projects">Projects</a>
+                <a href="#classes">Classes</a>
                 
             </div>
             
