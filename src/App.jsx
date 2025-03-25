@@ -33,7 +33,7 @@ function App() {
                     info="Hariri Institute for Computing and Computational Engineering, Boston University" 
                     dates="3/2025-Present" 
                     bullets={
-                        [" Working on a project to examine international news coverage of COVID-19 and its impact"]}
+                        [" research group at Boston University is to conduct research and foster education in areas related to artificial intelligence and emerging media"]}
                 />
                 <Experiences 
                     title="Co-founder/Lead Software Developer" 
