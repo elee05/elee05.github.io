@@ -23,7 +23,7 @@ function App() {
                 <About/>
                 
             </div>
-            <Chat/>
+{/*             <Chat/> */}
             
             
             <div id="exp">
