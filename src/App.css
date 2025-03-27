@@ -4,6 +4,7 @@ body {
   /* background-color: #423d93a5; */
   /* background: rgba(0, 0, 0, 0.836); */
   background-color: #27272A;
+  
   color: #f5efff88;;
 }
 
@@ -14,7 +15,7 @@ body {
 #about {
   width: 40%;
   margin: 30px auto;
-  background-color: #f5efff52;
+/*   background-color: #f5efff52; */
   padding: 30px;
   border-radius: 20px;
 }
@@ -24,7 +25,7 @@ body {
 #exp {
   width: 90%;
   margin: 30px auto;
-  background-color: #f5efff52;
+/*   background-color: #f5efff52; */
   color:black;
   padding: 30px;
   border-radius: 20px;
@@ -45,7 +46,7 @@ body {
 .project,
 .job {
   /* background-color:#f5efff52; */
-  background: #69676E;
+/*   background: #69676E; */
   margin: 0 auto;
   /* margin-bottom: 30px; */
   width: 90%;
