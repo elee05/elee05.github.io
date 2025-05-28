@@ -28,7 +28,7 @@ function About() {
             </h2>
             <div style={{display: display,}}>
                 <p>
-                    I'm a student at Boston University studying Computer Science, Economics, and Philosophy. Feel free to contact me at buerlee@bu.edu!
+                    I'm a student at Boston University studying Computer Science, Math, and Philosophy. Feel free to contact me at buerlee@bu.edu!
                 </p>
                 <br/>
                 <h3>My Skills</h3>
