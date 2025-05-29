@@ -10,6 +10,7 @@ import VantaBirds from './components/vantabirds'
 import mv from './assets/mvImage.png'
 import mtrix from './assets/matrixI.webp'
 import rec from './assets/recursive_search.png'
+import atlas from './assets/atlas-sports-logo-crop.webp'
 
 function App() {
     return (
@@ -72,6 +73,7 @@ function App() {
             <div id="projects">
                 {/* <Projects name="Vector Visualization" description="Project description here" github="https://github.com/"/> */}
                 <Projects name="Portfolio Optimization with Mean Variance" description="Used to test effectivenss of Modern Portfolio theory based on historical price data" image={mv} github="https://github.com/elee05/Portfolio-Optimization-with-Mean-Variance"/>
+                <Projects name="Atlas Sports" description="mobile communications app for young sports teams specifically designed for new players" image={atlas}></Projects>
                 <Projects name="Optimized Matrix Multiplcation Algorithm" description="Repo built during my time taking a linear algebra course. Used to help visualize vectors in 2D and 3D space and implements Matrix Algebra" image={mtrix} github="https://github.com/elee05/Matrix-Algebra"/>
                 <Projects name="YQuantum Hackathon Minimum Independent Set Submission" description="We were tasked with developing and comparing classical and quantum computing algorithms to the MIS problem of coloring nodes" image={rec}github="https://github.com/elee05/yquantum-2025-travelers-capgemini"/>
                 <Projects name="Connect 4 Simulator" description="Fun terminal project using ASCII graphics built with Python. Supports 2 player and single player. Integrated AI opponent which implements recursive backtracking to predict best move." github="https://github.com/elee05/ASCII-Connect-Four"/>
