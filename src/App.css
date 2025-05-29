@@ -3,7 +3,7 @@ body {
   font-family:  monospace;
   /* background-color: #423d93a5; */
   /* background: rgba(0, 0, 0, 0.836); */
-  background-color: #27272A;
+  background-color: #000000;
   
 /*   color: #f5efff88; */
   color: white;
@@ -27,18 +27,18 @@ body {
   width: 90%;
   margin: 30px auto;
 /*   background-color: #f5efff52; */
-  color:black;
+  color:rgb(255, 255, 255);
   padding: 30px;
   border-radius: 20px;
 
 }
 
-#projects h2,
+#projects h3,
 #about h2,
 #chat h2,
 #exp h2 {
-  text-align: center;
-  font-size: 35px;
+  /* text-align: center; */
+  font-size: 30px;
   margin-bottom: 15px;
   position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -50,11 +50,17 @@ body {
 /*   background: #69676E; */
   margin: 0 auto;
   /* margin-bottom: 30px; */
-  width: 90%;
+  width: 80%;
   padding: 25px;
-  /* border-radius: 20px; */
+  border-radius: 20px;
   font-size: 15px;
-  border-top: 1px solid #262728bd
+  border-top: 1px solid #86898bbd;
+  border-bottom: 1px solid #86898bbd;
+  border-left: 1px solid #86898bbd;
+  border-right: 1px solid #86898bbd;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+
   
 
 }
@@ -67,18 +73,32 @@ body {
 
 button {
   padding: 0.4rem 0.8rem;
-  border: 0.2rem solid #0c073f;
+  border: 0.2rem solid #000000;
   border-radius: 0.2rem;
-  background-color: #000000;
-  color: #e5d9f2;
+  background-color: #ffffff;
+  color: #000000;
   font-size: 1.4rem;
   font-weight: bold;
   margin-top: 1rem;
   cursor: pointer;
   transition: all 0.2s;
+  border-radius: 20px;
 }
 
 button:hover {
-  background-color: #797786;
-  color: #11073f;
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
+.project-image {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.desi {
+  margin-bottom: 5px;
+  margin-right: 200px;
+  color: rgb(195, 195, 195);
 }

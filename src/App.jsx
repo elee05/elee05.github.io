@@ -6,10 +6,16 @@ import About from './components/about/about'
 import C4 from './assets/c4.png'
 import './App.css'
 import Chat from './components/chat/chat'
+import VantaBirds from './components/vantabirds'
+import mv from './assets/mvImage.png'
+import mtrix from './assets/matrixI.webp'
+import rec from './assets/recursive_search.png'
 
 function App() {
     return (
         <>
+
+        
             <Navbar/>
             
             <br></br>
@@ -26,7 +32,7 @@ function App() {
 {/*             <Chat/> */}
             
             
-            <div id="exp">
+            {/* <div id="exp">
                 <h2>Experiences</h2>
                 <Experiences 
                     title="Undergraduate Researcher" 
@@ -62,11 +68,12 @@ function App() {
                 />
                 
                 
-            </div>
+            </div> */}
             <div id="projects">
-                <h2>Projects</h2>
                 {/* <Projects name="Vector Visualization" description="Project description here" github="https://github.com/"/> */}
-                <Projects name="Optimized Matrix Multiplcation Algorithm" description="Repo built during my time taking a linear algebra course. Used to help visualize vectors in 2D and 3D space, also implements Matrix Algebra" github="https://github.com/elee05/Matrix-Algebra"/>
+                <Projects name="Portfolio Optimization with Mean Variance" description="Used to test effectivenss of Modern Portfolio theory based on historical price data" image={mv} github="https://github.com/elee05/Portfolio-Optimization-with-Mean-Variance"/>
+                <Projects name="Optimized Matrix Multiplcation Algorithm" description="Repo built during my time taking a linear algebra course. Used to help visualize vectors in 2D and 3D space and implements Matrix Algebra" image={mtrix} github="https://github.com/elee05/Matrix-Algebra"/>
+                <Projects name="YQuantum Hackathon Minimum Independent Set Submission" description="We were tasked with developing and comparing classical and quantum computing algorithms to the MIS problem of coloring nodes" image={rec}github="https://github.com/elee05/yquantum-2025-travelers-capgemini"/>
                 <Projects name="Connect 4 Simulator" description="Fun terminal project using ASCII graphics built with Python. Supports 2 player and single player. Integrated AI opponent which implements recursive backtracking to predict best move." github="https://github.com/elee05/ASCII-Connect-Four"/>
                 <Projects name="8 Puzzle Solver" description="Designed and developed an 8 puzzle solving algorithm in Python which uses a state space search method and heuristic function. Algorithm is based on based on quantity and degree of displaced positions. Capable of solving most complex permutations with 31 optimal moves to solve." github="https://github.com/elee05/8-puzzle-solver"/>
                 <Projects name="Personal Tokenizer" description="Part of my ongoing crusade to devlop deeper knowledge of NLPs:Small scale tokenizer trained on Shakespear. Capable of holding up to 800 unique tokens" github="https://github.com/elee05/Tokenizer/tree/main"><img src={C4} ></img></Projects>

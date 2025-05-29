@@ -3,6 +3,7 @@ import Llama from '../../assets/llamapic.png'
 import ethan from '../../assets/me.jpg'
 
 
+
 function Profile() {
     return (
         <div id="profile">

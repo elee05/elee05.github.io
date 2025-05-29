@@ -22,10 +22,6 @@ function About() {
 
     return (
         <div id="about">
-            <h2>
-                <button className="toggler" onClick={toggle}>{buttonText}</button>
-                About Me
-            </h2>
             <div style={{display: display,}}>
                 <p>
                     I'm a student at Boston University studying Computer Science, Math, and Philosophy. Feel free to contact me at buerlee@bu.edu!
