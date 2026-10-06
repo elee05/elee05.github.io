@@ -4,7 +4,7 @@
 //
 // NOTE: these two entries are placeholders – replace them with your own.
 const equityReports = [
-  { ticker: 'GEV', folder: 'https://drive.google.com/drive/folders/REPLACE_WITH_YOUR_FOLDER_ID' },
+  { ticker: 'GEV', folder: 'https://drive.google.com/drive/u/0/folders/14LYN3s3bl59sXYq7hnFjPjsh3jKiBL9a' },
   { ticker: 'EHC', folder: 'https://drive.google.com/drive/folders/REPLACE_WITH_YOUR_FOLDER_ID' },
   { ticker: 'SONOS', folder: 'https://drive.google.com/drive/folders/REPLACE_WITH_YOUR_FOLDER_ID' },
 ]
