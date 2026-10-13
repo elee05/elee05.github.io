@@ -27,14 +27,7 @@ export default function Profile() {
             />
           </a>
         </div>
-        <div>
-          <a
-            target="blank"
-            href="https://drive.google.com/file/d/1tttWdeTp26vLPUnRWpx3aox-u6LP8e0x/view?usp=sharing"
-          >
-            <b>RESUME</b>
-          </a>
-        </div>
+        
       </div>
     </div>
   )
