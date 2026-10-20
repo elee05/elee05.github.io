@@ -6,6 +6,7 @@
 const equityReports = [
   { ticker: 'GEV', folder: 'https://drive.google.com/drive/u/0/folders/14LYN3s3bl59sXYq7hnFjPjsh3jKiBL9a' },
   { ticker: 'EHC', folder: 'https://drive.google.com/drive/u/0/folders/1ciQ4ZSU1p_EHC9LLVOq6szmbc4vp_Cti' },
+  { ticker: 'CRWV Credit Analysis', folder: 'https://drive.google.com/drive/folders/1UHdZ-QiTG0RLcBNgXS_MPsZv2WaG38R8' },
 ]
 
 export default equityReports
